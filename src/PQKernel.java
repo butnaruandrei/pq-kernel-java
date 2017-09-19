@@ -43,7 +43,7 @@ public class PQKernel {
         // Compute the number of equal pairs in a
         i = 0;
         n1 = 0;
-        while (i < n - 1)
+        while (i < n - 2)
         {
             t = 1;
             j = i + 1;
@@ -55,7 +55,7 @@ public class PQKernel {
         // Compute the number of equal pairs in a and b
         i = 0;
         n3 = 0;
-        while (i < n - 1)
+        while (i < n - 2)
         {
             t = 1;
             j = i + 1;
@@ -70,7 +70,7 @@ public class PQKernel {
         // Compute the number of equal pairs in b
         i = 0;
         n2 = 0;
-        while (i < n - 1)
+        while (i < n - 2)
         {
             t = 1;
             j = i + 1;
